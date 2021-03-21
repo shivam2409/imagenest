@@ -2,12 +2,12 @@
   "name": "imagenest",
   "version": "1.0.0",
   "description": "image uploader",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "frontend": "npm start --prefix cleint",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "frontend": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\""
   },
   "author": "shivam patel",
   "license": "MIT",
