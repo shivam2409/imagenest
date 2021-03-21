@@ -25,4 +25,6 @@ app.post('/upload', (req, res) => {
   });
 });
 
-app.listen(8000, () => console.log('Server Started'));
+const PORT = 8000;
+
+app.listen(PORT, () => console.log(`Server running on PORT ${PORT}`));
